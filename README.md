@@ -39,9 +39,9 @@ Model Training:
 7. Conclusion and Future Work:
 
 - Summarize model performance and identify areas for improvement, such as further parameter tuning or addressing class imbalance.
-Project Limitations
+## Project Limitations
 This project is limited by focusing on only three topics (Internet of Things, Software Development, and Data Science and Artificial Intelligence), which represent only a subset of the vast array of topics on Stack Overflow. As such:
 
-Limited Coverage: The model does not generalize to all Stack Overflow topics, which restricts its application to only these selected areas.
-Potential for Class Imbalance: Certain topics may have significantly fewer questions, affecting model performance.
+- Limited Coverage: The model does not generalize to all Stack Overflow topics, which restricts its application to only these selected areas.
+- Potential for Class Imbalance: Certain topics may have significantly fewer questions, affecting model performance.
 Future expansions could include adding more topics, which would require additional data collection and re-evaluation of the model to handle a broader topic set.
