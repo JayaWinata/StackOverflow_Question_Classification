@@ -1,20 +1,20 @@
-Stack Overflow Question Topic Classification
+# Stack Overflow Question Topic Classification
 This project aims to classify questions from Stack Overflow into predefined topics. Using data retrieved from the Stack Exchange API, we focus on building a model that can automatically label questions based on their content. This classification can be helpful for organizing questions, filtering topics, and improving content navigation on platforms with a high volume of user-generated content.
 
-Project Overview
+## Project Overview
 This project uses machine learning and natural language processing techniques to analyze and categorize Stack Overflow questions by topic. Each question in the dataset is tagged with one of a set of predefined topics, allowing the model to learn patterns associated with each category.
 
-Key Steps in the Project:
-Data Retrieval:
+### Key Steps in the Project:
+1. Data Retrieval:
 
-Data is fetched using the Stack Exchange API, focusing on questions asked on Stack Overflow.
-Topics in this project include a subset of common areas, specifically:
-Internet of Things
-Software Development
-Data Science and Artificial Intelligence
+- Data is fetched using the Stack Exchange API, focusing on questions asked on Stack Overflow.
+- Topics in this project include a subset of common areas, specifically:
+--Internet of Things
+--Software Development
+--Data Science and Artificial Intelligence
 Note: This project does not cover all possible topics available on Stack Overflow.
 
-Data Preprocessing:
+2. Data Preprocessing:
 
 Text Cleaning: Remove special characters, convert text to lowercase, and remove noise.
 Tokenization: Split questions into individual tokens (words) for better processing.
