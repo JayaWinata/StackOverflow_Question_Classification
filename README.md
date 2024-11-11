@@ -12,33 +12,33 @@ This project uses machine learning and natural language processing techniques to
   - Internet of Things
   - Software Development
   - Data Science and Artificial Intelligence
-Note: This project does not cover all possible topics available on Stack Overflow.
+*Note: This project does not cover all possible topics available on Stack Overflow.*
 
 2. Data Preprocessing:
 
-Text Cleaning: Remove special characters, convert text to lowercase, and remove noise.
-Tokenization: Split questions into individual tokens (words) for better processing.
-Stemming/Lemmatization: Normalize words to their root forms.
-Exploratory Data Analysis (EDA):
+- Text Cleaning: Remove special characters, convert text to lowercase, and remove noise.
+- Tokenization: Split questions into individual tokens (words) for better processing.
+- Stemming/Lemmatization: Normalize words to their root forms.
+3. Exploratory Data Analysis (EDA):
 
-Visualize the distribution of questions across the available topics to check for any class imbalance.
-Analyze common terms and question patterns to understand topic-specific language.
-Feature Engineering:
+- Visualize the distribution of questions across the available topics to check for any class imbalance.
+- Analyze common terms and question patterns to understand topic-specific language.
+4. Feature Engineering:
 
-TF-IDF (Term Frequency-Inverse Document Frequency) is used to transform text data into numerical vectors, helping the model understand the importance of words in context.
+- TF-IDF (Term Frequency-Inverse Document Frequency) is used to transform text data into numerical vectors, helping the model understand the importance of words in context.
 Model Training:
 
-Train and test several classification algorithms for topic categorization, including:
-Naive Bayes: A probabilistic approach for text classification.
-Support Vector Machine (SVM): Known for effectiveness in high-dimensional spaces.
-Decision Trees / Random Forests: Useful for capturing non-linear relationships in the data.
-Model Evaluation:
+5. Train and test several classification algorithms for topic categorization, including:
+- Naive Bayes: A probabilistic approach for text classification.
+- Support Vector Machine (SVM): Known for effectiveness in high-dimensional spaces.
+- Decision Trees / Random Forests: Useful for capturing non-linear relationships in the data.
+6. Model Evaluation:
 
-Evaluate models with metrics like accuracy, precision, recall, and F1-score.
-Analyze results through confusion matrices and classification reports to see how well each model performs across different topics.
-Conclusion and Future Work:
+- Evaluate models with metrics like accuracy, precision, recall, and F1-score.
+- Analyze results through confusion matrices and classification reports to see how well each model performs across different topics.
+7. Conclusion and Future Work:
 
-Summarize model performance and identify areas for improvement, such as further parameter tuning or addressing class imbalance.
+- Summarize model performance and identify areas for improvement, such as further parameter tuning or addressing class imbalance.
 Project Limitations
 This project is limited by focusing on only three topics (Internet of Things, Software Development, and Data Science and Artificial Intelligence), which represent only a subset of the vast array of topics on Stack Overflow. As such:
 
