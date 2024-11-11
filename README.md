@@ -9,9 +9,9 @@ This project uses machine learning and natural language processing techniques to
 
 - Data is fetched using the Stack Exchange API, focusing on questions asked on Stack Overflow.
 - Topics in this project include a subset of common areas, specifically:
---Internet of Things
---Software Development
---Data Science and Artificial Intelligence
+  - Internet of Things
+  - Software Development
+  - Data Science and Artificial Intelligence
 Note: This project does not cover all possible topics available on Stack Overflow.
 
 2. Data Preprocessing:
